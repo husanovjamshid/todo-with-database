@@ -7,7 +7,6 @@ body {
   width: 100%;
   max-width: 550px;
   margin: 0 auto;
-  
 }
 
 .todo {
@@ -29,22 +28,22 @@ i {
 }
 
 .loginText {
-    top: 20px;
-    font-weight: bold;
+  top: 20px;
+  font-weight: bold;
 }
 
 .form-label {
-    font-weight: 500 !important;
+  font-weight: 500 !important;
 }
 
 .forgot {
-    font-weight: 500;
-    transition: all .4s ease;
+  font-weight: 500;
+  transition: all 0.4s ease;
 }
 
 .forgot:hover {
-    color: green;
-    cursor: pointer;
+  color: green;
+  cursor: pointer;
 }
 
 .icon-box:hover {
@@ -58,4 +57,25 @@ i {
 .fixed-top {
   z-index: 9999;
   background-color: black;
+}
+
+@media only screen and (max-width: 576px) {
+  .loginBox {
+    top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .registerBox {
+    padding: 20px !important;
+    top: -5px;
+  }
+
+  #hero {
+    top: 40px;
+    height: 100%;
+  }
+
+  .homePage {
+    margin-bottom: 295px;
+  }
 }
