@@ -1,0 +1,61 @@
+body {
+  background-color: aliceblue;
+}
+
+.box {
+  background-color: #fff;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  
+}
+
+.todo {
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.js-list {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.js-eye {
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+}
+
+.loginText {
+    top: 20px;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: 500 !important;
+}
+
+.forgot {
+    font-weight: 500;
+    transition: all .4s ease;
+}
+
+.forgot:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.icon-box:hover {
+  cursor: pointer;
+}
+
+.icon-box:hover > h3 > a {
+  color: yellow;
+}
+
+.fixed-top {
+  z-index: 9999;
+  background-color: black;
+}

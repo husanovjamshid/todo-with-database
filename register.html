@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Todo List</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-lg-between">
+            <h1 class="logo me-auto me-lg-0"><a href="home.html">Todo<span>.</span></a></h1>
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#">About</a></li>
+                    <li><a class="nav-link scrollto" href="#">Services</a></li>
+                    <li><a class="nav-link scrollto " href="#">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="#">Team</a></li>
+                    
+                    <li><a class="nav-link scrollto" href="#">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+            
+            <a href="#" class="get-started-btn scrollto">Log Out</a>
+            
+        </div>
+    </header><!-- End Header -->
+    
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center justify-content-center">
+        <div class="container" data-aos="fade-up">
+            
+            <div class="box p-5 pb-4 shadow  rounded-3 position-relative">
+                <h2 class="text-center position-absolute loginText text-dark h2 ">Register</h2>
+                <form class="js-form mt-5" autocomplete="off">
+                    <label for="name" class="d-flex mb-2 form-label"><span class="fw-bolder">Name</span></label>
+                    <input class="js-name form-control" id="name" type="text" placeholder="Name" >
+                    <label for="phone" class="d-flex mb-2 mt-2 form-label"><span class="fw-bolder">Phone</span></label>
+                    <input class="js-phone form-control" id="phone" type="tel" placeholder="Phone" >
+                    <label for="email" class="d-flex mb-2 mt-2 form-label"><span class="fw-bolder">Email</span></label>
+                    <input class="js-email form-control" id="email" type="email" placeholder="Email" >
+                    <label for="password" class="d-flex mt-2 form-label"><span class="fw-bolder">Password</span></label>
+                    <div class="input-group mb-3 d-flex align-items-center">
+                        <input id="password" class="js-password form-control " type="password" placeholder="Password">
+                        <i class="fa-regular ms-2 fa-eye js-eye "></i>
+                    </div>
+                    <button class="btn btn-success d-block w-100 p-2 rounded-5">Register</button>
+                    
+                </form>
+            </div>
+            
+        </div>
+    </section><!-- End Hero -->
+    <script src="./js/register.js"></script>
+</body>
+</html>
